@@ -1,0 +1,22 @@
+{
+  "name": "numberonecreative",
+  "version": "1.0.0",
+  "description": "number one creative website",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iedenis/numberonecreative.git"
+  },
+  "author": "Denis Ievlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iedenis/numberonecreative/issues"
+  },
+  "homepage": "https://github.com/iedenis/numberonecreative#readme"
+}
