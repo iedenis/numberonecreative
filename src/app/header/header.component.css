@@ -1,0 +1,10 @@
+.navbar {
+	background-color:transparent !important;
+	background-image:none;
+    box-shadow:none;
+}
+.navbar-light .navbar-nav .nav-link  {
+    border: 2px solid; 
+    text-align: center;
+    /*color: black;*/
+}
