@@ -8,19 +8,21 @@
     <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
       <img src="assets/favicon.png" alt="logo">
     </a>
+
     <div class="w-100 text-right">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
   </div>
+
   <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
     <ul class="navbar-nav ml-auto flex-nowrap">
       <li class="nav-item">
-        <a href="#" class="nav-link m-2 menu-item nav-active">צור קשר</a>
+        <a class="nav-link m-2 menu-item nav-active" [routerLink]="['/contact']" routerLinkActive="router-link-active"  >צור קשר</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link m-2 menu-item">עלינו</a>
+        <a class="nav-link m-2 menu-item" [routerLink]="['/about']" routerLinkActive="router-link-active" >עלינו</a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link m-2 menu-item">הודות</a>
@@ -31,3 +33,4 @@
     </ul>
   </div>
 </nav>
+<router-outlet></router-outlet>
